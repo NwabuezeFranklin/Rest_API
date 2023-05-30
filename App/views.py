@@ -2,6 +2,7 @@
 from django.shortcuts import render, get_object_or_404
 
 from django.http import HttpResponse, JsonResponse
+
 from  rest_framework.parsers import JSONParser
 from . models import Article, Profile
 from . serializers import ArticleSerializer, ProfileSerializer
